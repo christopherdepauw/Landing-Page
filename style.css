@@ -98,12 +98,21 @@ h2 {
     width: 200px;
     height:200px;
     border: 5px solid #3882f6;
+    flex: 0 1 200px;
 }
 
 .info-box {
     display:flex;
-    gap: 2em;
     text-align: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.boxes {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex: 0 1 200px;
 }
 
 .info-box .text {
