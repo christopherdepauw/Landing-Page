@@ -67,7 +67,7 @@ hero-text {
     font-size: 18px;
 }
 
-button {
+.hero-statement button {
     margin-top:10px;
     color: #f9faf8;
     background-color: #3882f6;
@@ -138,5 +138,55 @@ blockquote {
     font-size:24px;
     font-weight:bold;
     color:#1f2937;
+}
+
+.action {
+    background-color: #f9faf8;
+    padding:60px 120px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: #3882f6;
+    display:flex;
+    width: 900px;
+    justify-content: space-around;
+    padding:40px;
+    color:#f9faf8;
+    border-radius: 10px;
+}
+
+.prompt {
+    display:flex;
+    flex-flow: column;
+    gap:8px;
+}
+
+.headtext {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.subtext {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.container button {
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border-color: #E5E7EB;
+    border-width: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-style: solid;
+    width:max-content;
+    padding: 5px 20px;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
