@@ -83,7 +83,7 @@ button {
     display: flex;
     flex-flow: column wrap;
     align-items:center;
-
+    padding-bottom:5em;
 }
 
 h2 {
@@ -108,5 +108,35 @@ h2 {
     width:200px;
     font-size: 18px;
     color:#686a6f;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 3em;
+}
+
+blockquote { 
+    flex:0 1 900px;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.p-one {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1f2937;
+    margin-bottom:auto;
+}
+
+.p-two {
+    margin-top: auto;
+    align-self: flex-end;
+    font-size:24px;
+    font-weight:bold;
+    color:#1f2937;
 }
 
