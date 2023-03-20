@@ -103,6 +103,7 @@ h2 {
 
 .info-box {
     display:flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     gap: 2em;
