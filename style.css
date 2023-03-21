@@ -39,18 +39,19 @@ hero-text {
     align-items: flex-start;
     justify-content: center;
     background-color: #1f2937;
-    padding:96px 48px 72px 96px;
-    gap: 36px;
+    padding:36px 24px 36px 24px;
+    gap: 225px;
 }
 
 .hero-image img {
-    height:275px;
-    width:475px;
     align-self:flex-start;
     border-radius:3px;
+    width:250px;
+    height:500px;
 }
 .hero-image {
     display:flex;
+
 }
 
 .hero-statement {
@@ -99,7 +100,7 @@ h2 {
 }
 
 .information img {
-    width: 200px;
+    width: 300px;
     height:200px;
     border: 5px solid #3882f6;
     border-radius: 10px;
