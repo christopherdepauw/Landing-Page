@@ -79,9 +79,10 @@ hero-text {
     background-color: #3882f6;
     width:max-content;
     padding: 5px 20px;
-    font-weight: bold;
+    font-weight: 600;
     border-radius: 5px;
     border:none;
+    font-size: 18px;
 }
 
 .information {
@@ -90,6 +91,7 @@ hero-text {
     flex-flow: column wrap;
     align-items:center;
     padding-bottom:5em;
+    padding-top: 1em;
 }
 
 h2 {
@@ -126,6 +128,7 @@ h2 {
     width:200px;
     font-size: 18px;
     color:#686a6f;
+    padding-top:3px;
 }
 
 .quote {
@@ -137,7 +140,7 @@ h2 {
 }
 
 blockquote { 
-    flex:0 1 900px;
+    flex:0 1 800px;
     display:flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -156,6 +159,8 @@ blockquote {
     font-size:24px;
     font-weight:bold;
     color:#1f2937;
+    padding-right: 55px;
+    padding-top: 8px;
 }
 
 .action {
