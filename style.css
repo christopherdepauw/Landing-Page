@@ -39,8 +39,8 @@ hero-text {
     align-items: flex-start;
     justify-content: center;
     background-color: #1f2937;
-    padding:36px 24px 36px 24px;
-    gap: 225px;
+    padding: 36px 24px 36px 24px;
+    gap: 100px;
 }
 
 .hero-image img {
@@ -51,14 +51,13 @@ hero-text {
 }
 .hero-image {
     display:flex;
-
 }
 
 .hero-statement {
     display:flex;
     align-self: center;
     flex-flow: column wrap;
-    flex: 0 1 450px;
+    flex: 0 1 550px;
 }
 .hero-header {
     font-size: 48px;
