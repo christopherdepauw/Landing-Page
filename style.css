@@ -7,7 +7,7 @@ body {
 }
 
 * {
-    font-family: "roboto", sans-serif;
+    font-family: 'roboto', sans-serif;
     box-sizing: border-box;
 }
 .header {
@@ -61,7 +61,7 @@ hero-text {
 }
 .hero-header {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #f9faf8;
     margin-bottom: auto;
     margin-top:auto;
